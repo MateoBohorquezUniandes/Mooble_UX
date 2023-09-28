@@ -12,6 +12,15 @@
         android:theme="@style/Theme.Mooble"
         tools:targetApi="31">
         <activity
+            android:name=".ConfiguracionCuenta"
+            android:exported="false" />
+        <activity
+            android:name=".ConfiguracionGeneral"
+            android:exported="false" />
+        <activity
+            android:name=".Sonando"
+            android:exported="false" />
+        <activity
             android:name=".Hora"
             android:exported="false" />
         <activity

@@ -25,7 +25,7 @@
         android:layout_height="51dp"
         android:layout_marginTop="40dp"
         android:backgroundTint="@color/naraja_claro"
-        android:text="Continuar como usuario anónimo"
+        android:text="Volver"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
