@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:background="@drawable/fondo"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="292dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mooble_estandar" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="379dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="16dp"
+        android:elevation="4dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entre Semana"
+            android:textColor="@color/azul_verdoso"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:translationX="10dp" />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde"
+            android:text="  Despertador"
+            android:textColor="@color/blanco"
+            android:translationX="10dp"
+            android:translationY="30dp" />
+
+        <TextView
+            android:id="@+id/textViewTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:00 AM"
+            android:textColor="@color/azul_verdoso"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:translationX="250dp"
+            android:translationY="12dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="379dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:elevation="4dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+        <TextView
+            android:id="@+id/textViewTitle4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preparar Cena"
+            android:textColor="@color/naraja_claro"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:translationX="10dp" />
+
+        <TextView
+            android:id="@+id/textViewDescription2"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde2"
+            android:text="  Evento"
+            android:textColor="@color/blanco"
+            android:translationX="10dp"
+            android:translationY="30dp" />
+
+        <TextView
+            android:id="@+id/textViewTitle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:00 AM"
+            android:textColor="@color/naraja_claro"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:translationX="250dp"
+            android:translationY="12dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="113dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/noun_gear_101799_ffffff" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="10dp"
+        android:translationZ="-1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2"
+        app:srcCompat="@drawable/circulo" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2"
+        app:srcCompat="@drawable/logo_principal" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
